@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/InfoGamerPhoton/Scenes/Demos/LoadingMenu.unity
+    guid: 339ac1a1d3afa4a88adb8fe593ebf0c2
+  - enabled: 1
+    path: Assets/InfoGamerPhoton/Scenes/Demos/GamePlay.unity
+    guid: fd6184cac875ba647b33cc0904dd4108
+  - enabled: 1
+    path: Assets/InfoGamerPhoton/Scenes/Demos/Lobby.unity
+    guid: a97a97316d0bbc746be3e58257775546
+  - enabled: 1
+    path: Assets/InfoGamerPhoton/Scenes/Demos/MainMenu.unity
+    guid: ff74be17edaaa40e3ad7f03fb16036ec
+  - enabled: 1
+    path: Assets/InfoGamerPhoton/Scenes/Demos/Login.unity
+    guid: 500d16c763b674bcdaa1ee7cf9e57e9d
+  - enabled: 1
+    path: Assets/InfoGamerPhoton/Scenes/Demos/LoadingScreen.unity
+    guid: abf2ececd068fea4985d7c2942800c72
+  - enabled: 1
+    path: Assets/InfoGamerPhoton/Scenes/Demos/AboutUs.unity
+    guid: ff5247e1e09e340938b42d6fd50cd29b
+  - enabled: 1
+    path: Assets/InfoGamerPhoton/Scenes/Demos/CharacterMenu.unity
+    guid: eae2e2d34b1f84d0cab627612f287814
+  - enabled: 1
+    path: Assets/InfoGamerPhoton/Scenes/Demos/UserMenu.unity
+    guid: 435b29b64dd074242b960eb413670a68
+  - enabled: 1
+    path: Assets/InfoGamerPhoton/Scenes/Demos/Register.unity
+    guid: a8d0ad53f748f4823afd21857ea933a3
+  - enabled: 1
+    path: Assets/InfoGamerPhoton/Scenes/Demos/Endgame.unity
+    guid: f3b490c607c96df4b80f6ae430dd2991
+  - enabled: 1
+    path: Assets/InfoGamerPhoton/Scenes/Demos/Credits.unity
+    guid: 6baf5c0c12b1a15429db6dca5fc99c05
+  - enabled: 1
+    path: Assets/InfoGamerPhoton/Scenes/Demos/Store.unity
+    guid: 67e47ab8de31445d3b45672785dfc22a
+  - enabled: 1
+    path: Assets/InfoGamerPhoton/Scenes/Demos/PlayMenu.unity
+    guid: d1d3b4ea93ce9764689e2f0d7a4aa423
+  - enabled: 1
+    path: Assets/InfoGamerPhoton/Scenes/Demos/Campaign.unity
+    guid: 19bf5c2f5622f694baee74dc3b3c7ad3
+  - enabled: 1
+    path: Assets/InfoGamerPhoton/Scenes/Demos/LobbyCampaign.unity
+    guid: 2b7ea21c9a1d24e46b27fcd23c3e6bcd
+  - enabled: 1
+    path: Assets/InfoGamerPhoton/Scenes/Demos/GoogleLogin.unity
+    guid: 46de65a92475c0a429246c174f4dd4bc
+  m_configObjects: {}

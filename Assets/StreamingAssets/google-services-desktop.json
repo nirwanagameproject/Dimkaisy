@@ -1,0 +1,37 @@
+{
+  "client": [
+    {
+      "services": {
+        "appinvite_service": {
+          "status": 1
+        }, 
+        "analytics_service": {
+          "status": 0
+        }
+      }, 
+      "oauth_client": [
+        {
+          "client_id": "680182775036-9tgphcmo44c8sm7bjnve2hubna4pt16k.apps.googleusercontent.com"
+        }
+      ], 
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAfKg9K2CBovxl_LXeCqfsOK3PLRQGGDs"
+        }
+      ], 
+      "client_info": {
+        "mobilesdk_app_id": "1:680182775036:ios:0d6d0e6083aaf39027eb79", 
+        "android_client_info": {
+          "package_name": "com.konoha.dimkaisy"
+        }
+      }
+    }
+  ], 
+  "configuration_version": "1", 
+  "project_info": {
+    "storage_bucket": "dimkaisy-fandy.appspot.com", 
+    "project_id": "dimkaisy-fandy", 
+    "firebase_url": "https://dimkaisy-fandy.firebaseio.com", 
+    "project_number": "680182775036"
+  }
+}

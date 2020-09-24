@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "680182775036",
+    "firebase_url": "https://dimkaisy-fandy.firebaseio.com",
+    "project_id": "dimkaisy-fandy",
+    "storage_bucket": "dimkaisy-fandy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680182775036:android:83f774d75c4d6e9427eb79",
+        "android_client_info": {
+          "package_name": "com.konoha.dimkaisy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680182775036-h9pvtqji0mchu8av4ea7vorjlkclie6c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.konoha.dimkaisy",
+            "certificate_hash": "bac9b4e26bc241deec658c3ac4704edd3dc16447"
+          }
+        },
+        {
+          "client_id": "680182775036-eagio83oulk1ur5cq6qki32cnr794cdn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9W56bpLnpM1znm6CPZvexLi2bn6MxvZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "680182775036-eagio83oulk1ur5cq6qki32cnr794cdn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
