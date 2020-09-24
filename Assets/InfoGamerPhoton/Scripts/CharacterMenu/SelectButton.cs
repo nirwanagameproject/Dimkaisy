@@ -39,7 +39,7 @@ public class SelectButton : MonoBehaviour
 
         using (UnityWebRequest www = UnityWebRequest.Post(LoginUrl, Form))
         {
-            www.certificateHandler = new AcceptAllCertificatesSignedWithASpecificKeyPublicKey();
+            //www.certificateHandler = new AcceptAllCertificatesSignedWithASpecificKeyPublicKey();
             yield return www.SendWebRequest();
             if (www.isNetworkError || www.isHttpError)
             {

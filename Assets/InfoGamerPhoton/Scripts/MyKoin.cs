@@ -49,7 +49,7 @@ public class MyKoin : MonoBehaviour
 
         using (UnityWebRequest www = UnityWebRequest.Post(LoginUrl, Form))
         {
-            www.certificateHandler = new AcceptAllCertificatesSignedWithASpecificKeyPublicKey();
+            //www.certificateHandler = new AcceptAllCertificatesSignedWithASpecificKeyPublicKey();
             yield return www.SendWebRequest();
 
             if (www.isNetworkError || www.isHttpError)
@@ -73,7 +73,7 @@ public class MyKoin : MonoBehaviour
         {
             notifpanel.SetActive(true);
             PhotonNetwork.Disconnect();
-            PhotonNetwork.PhotonServerSettings.AppSettings.Server = "158.140.176.15";
+            //PhotonNetwork.PhotonServerSettings.AppSettings.Server = "158.140.176.15";
             if (!PhotonNetwork.IsConnectedAndReady)
                 PhotonNetwork.ConnectUsingSettings();
         }
@@ -81,7 +81,7 @@ public class MyKoin : MonoBehaviour
         {
             notifpanel.SetActive(true);
             PhotonNetwork.Disconnect();
-            PhotonNetwork.PhotonServerSettings.AppSettings.Server = "165.227.58.40";
+            //PhotonNetwork.PhotonServerSettings.AppSettings.Server = "165.227.58.40";
             if (!PhotonNetwork.IsConnectedAndReady)
                 PhotonNetwork.ConnectUsingSettings();
         }

@@ -71,7 +71,7 @@ public class LoadingMenu : MonoBehaviour
         Debug.Log(LoginUrl);
         using (UnityWebRequest www = UnityWebRequest.Post(LoginUrl, Form))
         {
-            www.certificateHandler = new AcceptAllCertificatesSignedWithASpecificKeyPublicKey();
+            //www.certificateHandler = new AcceptAllCertificatesSignedWithASpecificKeyPublicKey();
             yield return www.SendWebRequest();
 
             MyPlayer myObject = JsonUtility.FromJson<MyPlayer>(www.downloadHandler.text);

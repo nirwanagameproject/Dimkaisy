@@ -11,7 +11,7 @@ using UnityEngine.UI;
 
 public class MyConnection : MonoBehaviourPunCallbacks
 {
-    public string LoginUrl= "https://digixkoin.com/";
+    public string LoginUrl= "http://206.189.93.226/";
     //public static string LoginUrl= "http://192.168.0.103/";
     List<float> startTime;
     int pos;
