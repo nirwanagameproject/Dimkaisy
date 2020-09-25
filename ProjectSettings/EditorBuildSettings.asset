@@ -10,7 +10,7 @@ EditorBuildSettings:
     guid: 339ac1a1d3afa4a88adb8fe593ebf0c2
   - enabled: 1
     path: Assets/InfoGamerPhoton/Scenes/Demos/GamePlay.unity
-    guid: fd6184cac875ba647b33cc0904dd4108
+    guid: 952e013f97546a649be98cd5cfc69808
   - enabled: 1
     path: Assets/InfoGamerPhoton/Scenes/Demos/Lobby.unity
     guid: a97a97316d0bbc746be3e58257775546

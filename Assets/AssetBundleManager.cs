@@ -73,7 +73,7 @@ static public class AssetBundleManager
             yield return null;
         Debug.Log("masuk woi");
         mydownload = UnityWebRequest.Get(url);
-        mydownload.certificateHandler = new AcceptAllCertificatesSignedWithASpecificKeyPublicKey();
+        //mydownload.certificateHandler = new AcceptAllCertificatesSignedWithASpecificKeyPublicKey();
         DownloadHandler handle = mydownload.downloadHandler;
         yield return mydownload.Send();
         if (!string.IsNullOrEmpty(mydownload.error))

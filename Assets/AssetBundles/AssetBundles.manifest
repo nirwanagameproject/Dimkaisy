@@ -1,7 +1,7 @@
 ManifestFileVersion: 0
-CRC: 768393201
+CRC: 2381757984
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: act2.dlc
+      Name: act1
       Dependencies: {}

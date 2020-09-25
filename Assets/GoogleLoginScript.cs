@@ -50,7 +50,7 @@ public class GoogleLoginScript : MonoBehaviour
 
         using (UnityWebRequest www = UnityWebRequest.Post(LoginUrl, Form))
         {
-            www.certificateHandler = new AcceptAllCertificatesSignedWithASpecificKeyPublicKey();
+            //www.certificateHandler = new AcceptAllCertificatesSignedWithASpecificKeyPublicKey();
             yield return www.SendWebRequest();
             myObject = JsonUtility.FromJson<MyNewPlayer>(www.downloadHandler.text);
             

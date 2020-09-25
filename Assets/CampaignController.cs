@@ -57,7 +57,7 @@ public class CampaignController : MonoBehaviour
 
         using (UnityWebRequest www = UnityWebRequest.Get(myurl))
         {
-            www.certificateHandler = new AcceptAllCertificatesSignedWithASpecificKeyPublicKey();
+            //www.certificateHandler = new AcceptAllCertificatesSignedWithASpecificKeyPublicKey();
             yield return www.SendWebRequest();
 
             if (www.isNetworkError || www.isHttpError)
@@ -81,7 +81,7 @@ public class CampaignController : MonoBehaviour
 
         using (UnityWebRequest www = UnityWebRequest.Get(myurl))
         {
-            www.certificateHandler = new AcceptAllCertificatesSignedWithASpecificKeyPublicKey();
+            //www.certificateHandler = new AcceptAllCertificatesSignedWithASpecificKeyPublicKey();
             yield return www.SendWebRequest();
 
             if (www.isNetworkError || www.isHttpError)
@@ -138,7 +138,8 @@ public class CampaignController : MonoBehaviour
                 Go.SetActive(true);
                 bundle = AssetBundleManager.getAssetBundle(url, actversion, "act" + choseact);
                 PlayerPrefs.SetInt("ActNumber", choseact);
-                
+                PlayerPrefs.SetString("ActScene", bundle.GetAllScenePaths()[0]);
+
                 //Debug.Log(AssetBundleManager.mydownload.assetBundle.name);
             }
         }
